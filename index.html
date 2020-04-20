@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>survey form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1 id="title">Student Info</h1>
+    <p id="description">this is a survey.</p>
+
+    <!-- title -->
+
+<div class="container">
+
+  <form class="" id="survey-form" action="index.html" method="post">
+    <label for="name">Name:</label><br>
+    <input type="text" name="Name" value="" id="name" id="name-label" placeholder="Enter your name"><br><br>
+    <label for="email">Email:</label><br>
+    <input type="email" name="email" id="email" value="" id="email-label" placeholder="Enter your email"><br><br>
+    <label for="numberd">Number</label><br>
+    <input type="number" name="number" id="number" value="" id="number-label" placeholder="Enter your mobile no." maxlength="10"><br><br>
+    <select id="dropdown" name="dropdown" class="">
+      <option value="bsc">bsc</option>
+      <option value="b.tech">b.tech</option>
+      <option value="bca">bca</option>
+      <option value="bhm">bhm</option>
+    </select><br><br>
+    <fieldset>
+      <legend>Gender:</legend>
+      <input type="radio" name="gender" id="male" value="male">
+      <label for="male">Male</label><br>
+      <input type="radio" name="gender" id="female" value="female">
+      <label for="female">Female</label><br>
+      <input type="radio" name="gender" id="other" value="other">
+      <label for="other">Other</label><br>
+    </fieldset>
+
+    <fieldset>
+      <legend>what are your hobbies?</legend>
+      <input type="checkbox" id="football" name="hobbies" value="football">
+      <label for="football">Football</label><br>
+      <input type="checkbox" id="coding" name="hobbies" value="coding">
+      <label for="coding">Coding</label><br>
+      <input type="checkbox" id="other" name="hobbies" value="other">
+      <label for="other">Other</label><br>
+    </fieldset><br>
+    <textarea name="message" rows="10" cols="30" placeholder="describe your self"></textarea><br>
+    <button type="submit" name="button">Submit</button>
+
+  </form>
+</div>
+
+
+
+
+  </body>
+</html>
